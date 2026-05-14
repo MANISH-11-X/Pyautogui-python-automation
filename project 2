@@ -1,0 +1,23 @@
+project 2. Go to youtube channel and subscribe Mr beast
+
+pyautogui.moveTo(1100, 1040, duration=2)
+pyautogui.click()
+
+position = pyautogui.locateCenterOnScreen("mark.png")
+pyautogui.click(position)
+
+pyautogui.write("youtube.com", interval=0.2 )
+pyautogui.moveTo(300,110)
+pyautogui.press("enter")
+
+time.sleep(4)
+
+# pyautogui.moveTo(1000,130)
+pyautogui.click(1000,130)
+pyautogui.write("Mr Beast", interval=0.1)
+
+pyautogui.press("enter")
+time.sleep(4)
+position = pyautogui.locateCenterOnScreen("sub.png")
+pyautogui.click(position)
+
