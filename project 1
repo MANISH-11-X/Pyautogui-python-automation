@@ -1,0 +1,28 @@
+#project 1.Go to the flipkart, search iphone 17 pro and add to cart it.
+
+pyautogui.moveTo(1100, 1040, duration=2)
+pyautogui.click()
+
+position = pyautogui.locateCenterOnScreen("mark.png")
+pyautogui.click(position)
+
+
+pyautogui.write("flipkart.com", interval=0.2 )
+pyautogui.press("enter")
+
+time.sleep(6)
+
+pyautogui.click(1000,230)
+
+pyautogui.write("iphone 17 pro", interval=0.1)
+pyautogui.press("enter")
+
+time.sleep(4)
+
+pyautogui.moveTo(1000,430)
+pyautogui.leftClick(1000,430)
+
+
+pyautogui.moveTo(1130,970)
+time.sleep(4)
+pyautogui.click(1130,970)
